@@ -4,6 +4,9 @@
 
 local opt = vim.opt
 opt.relativenumber = false
+opt.wrap = true
+
+opt.spelllang = { "ru", "en" }
 
 -- formatters
 vim.g.lazyvim_prettier_needs_config = false
