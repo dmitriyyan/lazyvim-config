@@ -6,6 +6,7 @@ local opt = vim.opt
 opt.relativenumber = false
 opt.wrap = true
 
+opt.spell = true
 opt.spelllang = { "ru", "en" }
 
 -- formatters

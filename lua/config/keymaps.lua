@@ -5,4 +5,4 @@ local map = LazyVim.safe_keymap_set
 
 map("n", "<leader>;", function()
   require("snacks").dashboard.open()
-end)
+end, { desc = "Dashboard" })
