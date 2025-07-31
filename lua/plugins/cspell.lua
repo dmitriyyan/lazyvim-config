@@ -8,7 +8,8 @@ return {
     dependencies = { "davidmh/cspell.nvim" },
     opts = function(_, opts)
       local cspell = require("cspell")
-      opts.sources = opts.sources or {}
+      -- opts.sources = opts.sources or {}
+      opts.sources = {} -- EXPLICITLY override the source list: cspell only
       table.insert(
         opts.sources,
         cspell.diagnostics.with({
