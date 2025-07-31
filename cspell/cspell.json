@@ -1,0 +1,11 @@
+{
+	"version": "0.2",
+	"import": ["@cspell/dict-ru_ru/cspell-ext.json"],
+	"dictionaries": ["ru-ru"],
+	"language": "en,ru",
+	"ignoreRandomStrings": true,
+	"allowCompoundWords": true,
+	"useGitignore": true,
+	"flagWords": [],
+	"words": ["nvim", "Lazyvim"]
+}
