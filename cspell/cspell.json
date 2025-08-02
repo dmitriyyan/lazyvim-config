@@ -1,11 +1,1 @@
-{
-	"version": "0.2",
-	"import": ["@cspell/dict-ru_ru/cspell-ext.json"],
-	"dictionaries": ["ru-ru"],
-	"language": "en,ru",
-	"ignoreRandomStrings": true,
-	"allowCompoundWords": true,
-	"useGitignore": true,
-	"flagWords": [],
-	"words": ["nvim", "Lazyvim"]
-}
+{"words":["nvim","Lazyvim","Oklch","tocstop"],"import":["@cspell/dict-ru_ru/cspell-ext.json"],"dictionaries":["ru-ru"],"version":"0.2","ignoreRandomStrings":true,"allowCompoundWords":true,"useGitignore":true,"flagWords":[],"language":"en,ru"}
